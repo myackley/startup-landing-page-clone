@@ -46,3 +46,31 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/* ======================
+==== "debugging" ========
+====================== */
+
+body {background-color: LightGray;}
+div {border: 1px solid Chocolate;}
+
+/* ======================
+== navigation section ===
+====================== */
+
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.logo {
+	/* I refuse to use inline styles unless it is necessary */
+	width: 26px;
+	margin-left: 14px;
+	height: 70px;
+}
