@@ -69,6 +69,32 @@ body {
 	content: " ";
 }
 
+.lead {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.75;
+	margin-bottom: 22px;
+}
+
+button {
+	padding: 16px 26px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	line-height: 1.33;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	text-shadow: none;
+	transition: all 200ms ease;
+}
+button:hover {
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+}
+
 /* ======================
 == navigation section ===
 ====================== */
@@ -146,29 +172,13 @@ body {
 	display: inline-block;
 	margin: 0 10px;
 }
-.introduction button {
-	padding: 16px 26px;
-	font-size: 18px;
-	color: #fff;
-	background-color: #f15a29;
-	border-color: #f15a29;
-	line-height: 1.33;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-o-border-radius: 4px;
-	border-radius: 4px;
-	text-shadow: none;
-	transition: all 200ms ease;
-}
-.introduction button:hover {
-	background-color: #d9400e;
-	border-color: #cf3d0e;
-}
 
+.introduction .watch {
+	vertical-align: -55%;
+}
 .introduction .watch img {
 	width: 35px;
 	height: 35px;
-	margin-top: 9px;
 }
 
 /* animation */
@@ -253,11 +263,35 @@ body {
 }
 
 /* ======================
+======= buy now =========
+====================== */
+
+.buy-karma {
+	background: url(../img/buy-now-bg.jpg) 0 0 no-repeat;
+	background-size: cover;
+	height: 780px;
+}
+.buy-karma .content {
+	padding: 126px 0;
+}
+.buy-karma aside {
+	width: 300px;
+}
+.buy-karma h3 {
+	font-size: 24px;
+	color: #f15a29;
+	letter-spacing: -0.02em;
+	font-weight: 400;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+/* ======================
 ======== footer =========
 ====================== */
 
 .social .links {
-	width: 75%;
+	width: 65%;
 	margin: auto;
 }
 .social .links > li {
